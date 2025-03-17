@@ -1,0 +1,48 @@
+.table {
+  width: 100%;
+  .table-titles {
+    display: flex;
+    .table-titles-wrapper {
+      padding: 12px 15px 14px 12px;
+      border-right: 1px solid rgb(65, 65, 68);
+
+      .table-titles-name {
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+      }
+    }
+  }
+  .table-captures {
+    display: flex;
+    margin-top: 12px;
+
+    .table-captures-1,
+    .table-captures-2 {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      color: rgb(161, 161, 170);
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 130%;
+      letter-spacing: 0.1px;
+
+      .table-captures-1-item {
+        height: 30px;
+        width: 757px;
+        padding-left: 21px;
+      }
+      .table-captures-1-item:first-child {
+        width: 110px;
+      }
+      .table-captures-2-item {
+        height: 30px;
+        width: 200px;
+      }
+    }
+  }
+}

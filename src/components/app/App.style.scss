@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(39, 39, 42);
+}
+.container {
+  max-width: 1900px;
+  width: 100%;
+  margin-left: 10px;
+  padding: 0 10px;
+}
+.separator {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(65, 65, 68);
+}
+main {
+  display: flex;
+}
